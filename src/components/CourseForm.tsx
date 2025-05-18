@@ -102,7 +102,7 @@ const CourseForm = () => {
             <Label htmlFor="course-name">Course Name*</Label>
             <Input
               id="course-name"
-              placeholder="Introduction to Computer Science"
+              placeholder="Introduction to Software Engineering"
               value={name}
               onChange={(e) => setName(e.target.value)}
               aria-invalid={nameError ? "true" : "false"}

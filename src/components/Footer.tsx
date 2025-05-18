@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mt-auto py-6 border-t text-center text-sm text-muted-foreground">
       <div className="container mx-auto">
-        <p>Academic Ace Tracker &copy; {new Date().getFullYear()}</p>
+        <p>CGPA Tracker &copy; {new Date().getFullYear()}</p>
         <p className="mt-1">Easily track and calculate your academic performance</p>
       </div>
     </footer>
